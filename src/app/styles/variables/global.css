@@ -1,0 +1,10 @@
+@import "spacing.css";
+@import "color.css";
+
+:root {
+    --font-family-main: "Noto Sans", sans-serif;
+
+    --container-width: 1200px;
+
+    --page-background-color: #E9E9E9FF
+}

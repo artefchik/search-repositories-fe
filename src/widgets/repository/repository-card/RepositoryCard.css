@@ -1,0 +1,67 @@
+.repository-card {
+    padding: var(--spacing-24);
+    border-radius: 20px;
+    border: 1px solid #E1E1E1FF;
+    overflow: hidden;
+    background-color: var(--white);
+
+    .repository-card__avatar {
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .repository-card__name {
+        font-weight: 600;
+    }
+
+    .repository-card__full-name {
+        font-size: 14px;
+        color: var(--blue);
+    }
+
+    .repository-card__labels {
+        display: flex;
+        gap: var(--spacing-12);
+    }
+
+    .repository-card__content > *:not(:last-child) {
+        margin-bottom: var(--spacing-8);
+    }
+
+    .repository-card__label {
+        padding: var(--spacing-4) var(--spacing-8);
+        background-color: #F1F5F9;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--spacing-4);
+    }
+
+    .repository-card__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--spacing-12);
+    }
+
+    .repository-card__content {
+        margin-bottom: var(--spacing-16);
+    }
+
+    .repository-card__icons,
+    .repository-card__actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--spacing-16);
+    }
+
+    .repository-card__icon-button {
+        height: 32px;
+    }
+}
+
+

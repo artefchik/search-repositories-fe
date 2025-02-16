@@ -1,0 +1,7 @@
+.favorite-button__icon-button {
+    color: var(--dark-gray);
+}
+
+.favorite-button__icon-button.favorite-button--active {
+    color: var(--coral-red);
+}

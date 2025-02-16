@@ -1,0 +1,12 @@
+.favorites-page__container h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.favorites-page__container h1:not(:last-child) {
+    margin-bottom: var(--spacing-24);
+}
+
+.favorites-page__container--center h1 {
+    text-align: center;
+}

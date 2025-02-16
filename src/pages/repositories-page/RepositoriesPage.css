@@ -1,0 +1,33 @@
+.repository-page__search input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    padding: var(--spacing-6) var(--spacing-20);
+    background-color: var(--white);
+    outline: none;
+    margin: var(--spacing-24) 0 var(--spacing-48);
+}
+
+.repository-page__search input::placeholder {
+    color: #B3B3B3FF;
+}
+
+.repository-page__empty {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.repository-page__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-24);
+}
+
+.repository-page__top .repository-page__title {
+    font-size: 22px;
+    line-height: 48px;
+    font-weight: 600;
+}

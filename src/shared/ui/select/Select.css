@@ -1,0 +1,74 @@
+.select-container {
+    position: relative;
+    width: 300px;
+}
+
+.select-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 12px 20px;
+    height: 48px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.select-input svg {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.select-input input {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.select-input-open svg {
+    transform: rotate(180deg);
+}
+
+.select-dropdown {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0 0 4px 4px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+}
+
+.search-input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.options-list {
+    max-height: 190px;
+    overflow-y: scroll;
+}
+
+.option {
+    cursor: pointer;
+}
+
+.option-empty,
+.option {
+    padding: 10px 16px;
+}
+
+.option:hover {
+    background-color: rgba(212, 67, 51, 0.2);
+}
+
+.option.selected {
+    background-color: rgba(212, 67, 51, 0.8);
+}

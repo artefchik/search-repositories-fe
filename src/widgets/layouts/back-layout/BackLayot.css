@@ -1,0 +1,13 @@
+.back-link {
+    display: inline-flex;
+    column-gap: var(--spacing-10);
+    align-items: center;
+
+    .icon {
+        color: var(--blue);
+    }
+}
+
+.back-link {
+    margin-bottom: var(--spacing-48);
+}
